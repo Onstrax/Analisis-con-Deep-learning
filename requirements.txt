@@ -1,6 +1,19 @@
+# Dependencias del repositorio (Talleres 1 y 3)
+# Instalar en el entorno virtual:  pip install -r requirements.txt
+
+# --- Núcleo de datos / utilidades ---
 numpy
 pandas
-tensorflow
+openpyxl            # lectura de archivos .xlsx (pd.read_excel)
 scikit-learn
-ipykernel
 matplotlib
+seaborn
+
+# --- Deep learning ---
+tensorflow          # Modelo 1 (LSTM / Keras)
+torch               # Modelos 2 y 3 (BETO / BERTIN con PyTorch)
+transformers>=4.44  # BETO y BERTIN desde Hugging Face
+accelerate>=0.26    # soporte de entrenamiento/fine-tuning de transformers
+
+# --- Jupyter ---
+ipykernel
